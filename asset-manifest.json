@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tension_design/static/css/main.2cce8147.chunk.css",
+    "main.js": "/tension_design/static/js/main.b769b991.chunk.js",
+    "main.js.map": "/tension_design/static/js/main.b769b991.chunk.js.map",
+    "runtime~main.js": "/tension_design/static/js/runtime~main.a24747bd.js",
+    "runtime~main.js.map": "/tension_design/static/js/runtime~main.a24747bd.js.map",
+    "static/js/2.b41502e9.chunk.js": "/tension_design/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/tension_design/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/tension_design/index.html",
+    "precache-manifest.0d26d5aa4e4923ab6b2971b918a59fb3.js": "/tension_design/precache-manifest.0d26d5aa4e4923ab6b2971b918a59fb3.js",
+    "service-worker.js": "/tension_design/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/tension_design/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/tension_design/static/media/logo.5d5d9eef.svg"
+  }
+}
