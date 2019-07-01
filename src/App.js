@@ -1,25 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import styled from "styled-components";
+
+import Intro from "./components/Intro";
+import Menu from "./components/Menu";
+import Work from "./components/Work";
+import Footer from "./components/Footer";
+
+// get total screen container
+const Outer_Container = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  margin: 12px;
+`;
+
+// first container to fill intro screen
+const First_Container = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px;
+  width: 100%;
+  height: 100vh;
+  margin: 12px;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Outer_Container>
+      <First_Container>
+        <Intro />
+        <Menu />
+      </First_Container>
+      <Work />
+      <Footer />
+    </Outer_Container>
   );
 }
 

@@ -1,13 +1,21 @@
 {
   "name": "tension_design",
+  "homepage": "https://marktension.github.io/tension_design",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animated-scroll-to": "^1.2.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-stickynode": "^2.1.1",
+    "rebass": "^3.1.1",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,15 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+/* raleway font */
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400&display=swap");
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  justifycontent: "center";
   height: 40vmin;
   pointer-events: none;
 }
 
+em {
+  /* font-family: "Roboto", Helvetica, Arial, sans-serif; */
+  /* font-size: 1.5em; */
+  font-weight: 400;
+  /* font-style: inherit; */
+  color: palevioletred;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: palevioletred;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.marginTop {
+  margin-top: 10%;
+}
+
+.Container2 {
+  flex: 1;
+  justifycontent: "center";
+  alignitems: "center";
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,13 +64,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
