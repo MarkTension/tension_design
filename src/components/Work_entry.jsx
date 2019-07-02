@@ -45,6 +45,8 @@ const Tag = styled.span`
 
 const Wrapper = styled.section`
   padding-bottom: 2em;
+  padding-left: 0em;
+  padding-right: 0em;
   border-radius: 8px;
   :hover {
     background: Snow;
@@ -73,6 +75,7 @@ class Work_entry extends React.Component {
       <Wrapper
         onMouseEnter={() => this.handleActive()}
         onMouseLeave={() => this.setState({ active: false })}
+        id="entry_wrapper"
       >
         <Title>{this.props.features.title}</Title>
         <Text>{this.props.features.body}</Text>

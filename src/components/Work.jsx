@@ -6,15 +6,13 @@ import entry from "./Entries"; // this is an array with all work entries
 import { Box, Flex, Image } from "rebass";
 
 const Wrapper = styled.div`
-  padding: 2em;
+  padding: 1em;
   background: white;
   border-radius: 25px;
   :hover {
     background: Snow;
   }
 `;
-
-// //GhostWhite
 
 const Text = styled.h1`
   font-family: "Raleway", sans-serif;
@@ -28,7 +26,7 @@ const Work = () => (
     <Box p={2} width={1} align="center">
       <Text>Past Work</Text>
     </Box>
-    <Box p={2} width={1 / 2} backgroundcolor="white">
+    <Box p={[1, 1 / 2, 1]} width={[1, 1 / 2, 1 / 3]}>
       <Wrapper>
         <center>
           <Image
@@ -41,7 +39,7 @@ const Work = () => (
         <Work_entry features={entry.plant_vision} />
       </Wrapper>
     </Box>
-    <Box p={2} width={1 / 2}>
+    <Box p={[1, 1 / 2]} width={[1, 1 / 2, 1 / 3]}>
       <Wrapper>
         <center>
           <Image
@@ -54,7 +52,7 @@ const Work = () => (
         <Work_entry features={entry.mit} />
       </Wrapper>
     </Box>
-    <Box p={2} width={1 / 2}>
+    <Box p={[1, 1 / 2]} width={[1, 1 / 2, 1 / 3]}>
       <Wrapper>
         <center>
           <Image
@@ -67,7 +65,7 @@ const Work = () => (
         <Work_entry features={entry.creme} />
       </Wrapper>
     </Box>
-    <Box p={2} width={1 / 2}>
+    <Box p={[1, 1 / 2]} width={[1, 1 / 2, 1 / 3]}>
       <Wrapper>
         <center>
           <Image

@@ -3,48 +3,38 @@ import logo from "../logo.png";
 import "../App.css";
 
 import styled from "styled-components";
-
-const Container_in = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  box-shadow: 0px 0px 0px;
-  width: 250px;
-  height: 250;
-  margin: 12px;
-`;
-const Container_out = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  box-shadow: 0px 0px 0px;
-  width: 50%;
-  height: 250;
-  margin: 12px;
-`;
+import { Box, Flex, Image } from "rebass";
 
 const Text = styled.h2`
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   text-align: justify;
   color: black;
+  padding: 1em;
+  font-size: 1.5rem;
+`;
+
+const IntroBox = styled(Box)`
+  justify-content: center;
+  alignitems: "center";
+`;
+
+const Image_container = styled.div`
+  justify-content: center;
+  alignitems: "center";
 `;
 
 const Card = () => (
-  <Container_out>
-    <Container_in>
-      <img src={logo} className="App-logo" alt="logo" />
-    </Container_in>
+  <IntroBox m={[1, 1 / 2]} width={[1, 1, 1 / 2, 2 / 4]} align="center">
+    <center>
+      <Image_container>
+        <img src={logo} className="App-logo" alt="logo" />
+      </Image_container>
+    </center>
     <Text>
       <p>
-        <em>Tension Design</em> is a web-design studio based in Amsterdam.
-        <br /> Our goal is to develop state-of-the-art generative design and
+        <em>Tension Design</em> is a web-design studio based in Amsterdam. Our
+        goal is to develop state-of-the-art generative design and
         web-applications. <br />
         <br />See our{" "}
         <a href={"https://marktension.home.blog/"}>
@@ -53,7 +43,7 @@ const Card = () => (
         for our latest progress, and scroll down for past projects.
       </p>
     </Text>
-  </Container_out>
+  </IntroBox>
 );
 
 export default Card;

@@ -40,7 +40,7 @@ const entry = {
       "RNNs",
       "Visual Cortex",
       "Tensorflow",
-      "Convolutional Neural Networks",
+      "CNNs",
       "pandas",
       "MongoDB"
     ],
@@ -80,7 +80,7 @@ const entry = {
       "Computer Vision",
       "Neuroscience",
       "Deep neural networks",
-      "convolutional neural networks",
+      "CNNs",
       "Python",
       "explainable AI",
       "Tensorflow",
