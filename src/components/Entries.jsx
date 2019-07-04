@@ -91,6 +91,19 @@ const entry = {
     filepath: "../images/skulley.png",
     link:
       "https://sils.uva.nl/content/research-groups/cognitive-and-systems-neuroscience/cognitive-and-systems-neuroscience.html?origin=4%2FiOsdPJTn20%2FNtWsPAscQ"
+  },
+  leaves: {
+    title: "Random Leaves",
+    body:
+      "Random Leaves is a work in progress to create random leaves.  " +
+      " The goal is to force myself to think algorithmically about what makes us classify objects as such. " +
+      " This forces one to think about its mathematical properties in terms of:  " +
+      "  symmetry, dimensionality ratio's, and different types of noise. " +
+      "  Eventually this is a gateway to more elaborate generative design.",
+    skills: ["paperJS", "Javascript", "generative design", "webdesign"],
+    filepath: "../images/skulley.png",
+    link: "https://marktension.github.io/paper_portfolio/",
+    git: "https://github.com/MarkTension/paper_portfolio"
   }
 };
 

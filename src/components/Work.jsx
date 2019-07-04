@@ -77,6 +77,18 @@ const Work = () => (
         <Work_entry features={entry.sils} />
       </Wrapper>
     </Box>
+    <Box p={[1, 1 / 2]} width={[1, 1 / 2, 1 / 3]}>
+      <Wrapper>
+        <center>
+          <Image
+            width={[1 / 2]}
+            borderRadius={8}
+            src={require("../images/leaf_gif.gif")}
+          />
+        </center>
+        <Work_entry features={entry.leaves} />
+      </Wrapper>
+    </Box>
   </Flex>
 );
 
