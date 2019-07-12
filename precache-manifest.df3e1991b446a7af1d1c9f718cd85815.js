@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b444b34f8e32ea7009cc52c4c37b000",
+    "revision": "1d66575c4c921bfcfb7d102d5a095266",
     "url": "/tension_design/index.html"
   },
   {
-    "revision": "4a0383e95544b16ab047",
-    "url": "/tension_design/static/css/main.01c78356.chunk.css"
+    "revision": "fbe5809baef37658ac4c",
+    "url": "/tension_design/static/css/main.58794519.chunk.css"
   },
   {
-    "revision": "f5fac3347069a71d16c4",
-    "url": "/tension_design/static/js/2.9b31f786.chunk.js"
+    "revision": "42ca3179ae71e9f0a636",
+    "url": "/tension_design/static/js/2.601b3ec7.chunk.js"
   },
   {
-    "revision": "4a0383e95544b16ab047",
-    "url": "/tension_design/static/js/main.8ae4d9fb.chunk.js"
+    "revision": "fbe5809baef37658ac4c",
+    "url": "/tension_design/static/js/main.ce76ad11.chunk.js"
   },
   {
     "revision": "124f3b6429b84283ce3f",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0c37d7c58f64c98bbb0ec3e4d29a5927",
     "url": "/tension_design/static/media/cremey.0c37d7c5.png"
+  },
+  {
+    "revision": "62ec7cff5c51d68816d744fa0ab9dc9e",
+    "url": "/tension_design/static/media/kanji_gif.62ec7cff.gif"
   },
   {
     "revision": "0550a4285c62848fea6652ee1412862d",
