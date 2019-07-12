@@ -97,13 +97,26 @@ const entry = {
     body:
       "Random Leaves is a work in progress to create random leaves.  " +
       " The goal is to force myself to think algorithmically about what makes us classify objects as such. " +
-      " This forces one to think about its mathematical properties in terms of:  " +
+      " This forces one to think in terms of mathematical properties, like:  " +
       "  symmetry, dimensionality ratio's, and different types of noise. " +
-      "  Eventually this is a gateway to more elaborate generative design.",
+      "  Eventually this project is a gateway to more elaborate generative design.",
     skills: ["paperJS", "Javascript", "generative design", "webdesign"],
     filepath: "../images/skulley.png",
     link: "https://marktension.github.io/paper_portfolio/",
     git: "https://github.com/MarkTension/paper_portfolio"
+  },
+  kanji: {
+    title: "Kanji Embellishment",
+    body:
+      "When going through the Kanji database, I found that, despite being drawn in minimal   " +
+      " SVG-form, they do have an aesthetic to them. In this project I wanted to kind of do a  " +
+      " tribute to its minimal looks by making little patterns around it based on its stroke order.  " +
+      "  All is built with the help of the KanjiVG database and paper.js " +
+      "  I learned about svg importing and the possibilities of working with SVG in general. More on this on the blog",
+    skills: ["paperJS", "Javascript", "generative design", "webdesign"],
+    filepath: "../images/skulley.png",
+    link: "https://marktension.github.io/kanji_embellisment/",
+    git: "https://github.com/MarkTension/kanji_embellisment"
   }
 };
 

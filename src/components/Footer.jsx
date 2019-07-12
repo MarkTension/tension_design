@@ -5,6 +5,7 @@ import git from "../images/github_im.png";
 import wordpress from "../images/wordpress_ico.png";
 import insta from "../images/insta.png";
 import gmail from "../images/gmail.png";
+import twitter from "../images/twitter.png";
 
 const Foot_div = styled.div`
   display: flex;
@@ -36,6 +37,9 @@ function Footer({ children }) {
       </a>
       <a href={"mailto:tensen.mark@gmail.com"}>
         <Image src={gmail} width="40px" margin="10px" padding="2px" />
+      </a>
+      <a href={"https://twitter.com/Mark_Tension"}>
+        <Image src={twitter} width="40px" margin="10px" padding="2px" />
       </a>
     </Foot_div>
   );
