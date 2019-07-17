@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c21d76aa89077f63ec8e469e4eea3773",
+    "revision": "5d067da6ddfc345ecc1ece2b1915f50a",
     "url": "/tension_design/index.html"
   },
   {
-    "revision": "36047f4fe7eac87aecce",
+    "revision": "642a0376df0e44d962de",
     "url": "/tension_design/static/css/main.51b9f4e5.chunk.css"
   },
   {
-    "revision": "56bddc6aa9fe7de9da61",
-    "url": "/tension_design/static/js/2.d1ca146f.chunk.js"
+    "revision": "3fb7c56984f8620fe0e6",
+    "url": "/tension_design/static/js/2.eaef92c4.chunk.js"
   },
   {
-    "revision": "36047f4fe7eac87aecce",
-    "url": "/tension_design/static/js/main.402f90ff.chunk.js"
+    "revision": "642a0376df0e44d962de",
+    "url": "/tension_design/static/js/main.afec4f20.chunk.js"
   },
   {
     "revision": "124f3b6429b84283ce3f",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "afa24e76ea074d677c8db9c277c79402",
     "url": "/tension_design/static/media/plantvision.afa24e76.png"
+  },
+  {
+    "revision": "314705f58a5ea9d16a42072c6fb6a250",
+    "url": "/tension_design/static/media/prism_gif.314705f5.gif"
   },
   {
     "revision": "f07b61b4383bfe71a9335c249703007c",
