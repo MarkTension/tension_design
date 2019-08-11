@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d067da6ddfc345ecc1ece2b1915f50a",
+    "revision": "04ac4414e843076ccb196ae727be68cd",
     "url": "/tension_design/index.html"
   },
   {
-    "revision": "642a0376df0e44d962de",
+    "revision": "fd478ebacd30edfaf054",
     "url": "/tension_design/static/css/main.51b9f4e5.chunk.css"
   },
   {
-    "revision": "3fb7c56984f8620fe0e6",
-    "url": "/tension_design/static/js/2.eaef92c4.chunk.js"
+    "revision": "7183bdf4368bd5714d0f",
+    "url": "/tension_design/static/js/2.436930eb.chunk.js"
   },
   {
-    "revision": "642a0376df0e44d962de",
-    "url": "/tension_design/static/js/main.afec4f20.chunk.js"
+    "revision": "fd478ebacd30edfaf054",
+    "url": "/tension_design/static/js/main.1ff35177.chunk.js"
   },
   {
     "revision": "124f3b6429b84283ce3f",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6533b353fcf87c40f67b40fa73974845",
     "url": "/tension_design/static/media/logo.6533b353.png"
+  },
+  {
+    "revision": "68594f703e57e63aaeb342b566e44398",
+    "url": "/tension_design/static/media/nomnom.68594f70.png"
   },
   {
     "revision": "afa24e76ea074d677c8db9c277c79402",
